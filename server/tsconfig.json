@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                         // Modern JS support
+      "module": "CommonJS",                       // For Node.js compatibility
+      "moduleResolution": "node",
+      "outDir": "dist",                           // Output compiled files to /dist
+      "rootDir": "src",                           // Your source files are in /src
+      "strict": true,                             // Enable strict type-checking
+      "esModuleInterop": true,                    // Allow default imports from CommonJS
+      "skipLibCheck": true,                       // Skip type checking for .d.ts files
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+    },
+    "include": ["src"],                           // Include all .ts files in /src
+    "exclude": ["node_modules", "dist"]           // Ignore these folders
+  }
